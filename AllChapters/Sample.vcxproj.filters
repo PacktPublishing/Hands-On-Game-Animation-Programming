@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{4db6074c-6a81-4983-a700-016cea84ae4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Samples">
+      <UniqueIdentifier>{bf0b939a-7147-4dc5-a1cc-bba357d49f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OpenGL">
+      <UniqueIdentifier>{9f495d47-0041-47f7-89d8-d50f503c7c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLTF">
+      <UniqueIdentifier>{3190969f-dd42-44b1-99a3-f4b008f7d9a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{17dac704-11c0-42af-98d4-77642b977fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLTF">
+      <UniqueIdentifier>{da742ae2-c1e5-4cab-8003-e58b6fe07718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenGL">
+      <UniqueIdentifier>{774f82d2-8b41-438a-94a4-dd988608cab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External">
+      <UniqueIdentifier>{6418c7ca-daf9-488a-a535-6d796ab74cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External">
+      <UniqueIdentifier>{0a3c18c2-65c1-436f-abb8-19ac59634d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Samples">
+      <UniqueIdentifier>{8a9e3340-d404-45e3-9dc2-ec2144f2f2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animation">
+      <UniqueIdentifier>{80b42d0c-40cd-4206-9d80-fc20568a3605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation">
+      <UniqueIdentifier>{d7e96485-748b-4f1c-a517-3cb789db7289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering">
+      <UniqueIdentifier>{eccefff8-4a92-4d2c-bdf0-a16b402b5f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{9cd0e25a-960a-4ae9-b966-4592f60f6db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AniamtionBlending">
+      <UniqueIdentifier>{6f335748-fa50-4a16-851c-2048411a1f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AnimationBlending">
+      <UniqueIdentifier>{bce8c5d7-45ce-4c39-92cf-18178e5ba9f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IK">
+      <UniqueIdentifier>{49b9ea45-c59d-443c-beec-5154627dd12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IK">
+      <UniqueIdentifier>{1c1cdef5-1ab2-4372-9b78-742327c455d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{e3143902-5a69-474c-a6b1-092c377e3208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Crowds">
+      <UniqueIdentifier>{af728986-17f0-4088-9578-8b22f7126246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Crowds">
+      <UniqueIdentifier>{e87474ca-b3aa-43fc-a3e5-70101c36b73a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\lit.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\static.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\skinned.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\preskinned.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\dualquaternion.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\crowd.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Application.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Attribute.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\cgltf.h">
+      <Filter>Header Files\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\GLTFLoader.h">
+      <Filter>Header Files\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\vec4.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\vec2.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\vec3.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Uniform.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Texture.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter06Sample01.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Draw.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\IndexBuffer.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\glad.h">
+      <Filter>Header Files\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\khrplatform.h">
+      <Filter>Header Files\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Transform.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\mat4.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\stb_image.h">
+      <Filter>Header Files\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\nuklear.h">
+      <Filter>Header Files\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\quat.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SampleSelector.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Shader.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Interpolation.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Frame.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Track.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\TransformTrack.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter08Sample01.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Pose.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Clip.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter09Sample01.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Skeleton.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter10Sample01.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\DebugDraw.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Mesh.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter10Sample02.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter11Sample01.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SkinningType.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter11Sample02.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\RearrangeBones.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter11Sample03.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter12Sample01.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SamplePoseInstance.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Blending.h">
+      <Filter>Header Files\AniamtionBlending</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\CrossFadeController.h">
+      <Filter>Header Files\AniamtionBlending</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\CrossFadeTarget.h">
+      <Filter>Header Files\AniamtionBlending</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter12Sample02.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter12Sample03.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\CCDSolver.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter13Sample01.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\FABRIKSolver.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter13Sample02.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter13Sample03.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Intersections.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\IKLeg.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\DualQuaternion.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter14Sample01.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\AnimTexture.h">
+      <Filter>Header Files\Crowds</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\AnimBaker.h">
+      <Filter>Header Files\Crowds</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Chapter15Sample01.h">
+      <Filter>Header Files\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Crowd.h">
+      <Filter>Header Files\Crowds</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Attribute.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter06Sample01.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Draw.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\glad.c">
+      <Filter>Source Files\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GLTFLoader.cpp">
+      <Filter>Source Files\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\IndexBuffer.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\cgltf.c">
+      <Filter>Source Files\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\mat4.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\nuklear.c">
+      <Filter>Source Files\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\quat.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\SampleSelector.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Shader.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\stb_image.cpp">
+      <Filter>Source Files\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Texture.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Transform.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Uniform.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\vec3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Track.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\TransformTrack.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter08Sample01.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Pose.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Clip.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter09Sample01.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Skeleton.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter10Sample01.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\DebugDraw.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Mesh.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter10Sample02.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter11Sample01.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter11Sample02.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\RearrangeBones.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter11Sample03.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter12Sample01.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Blend.cpp">
+      <Filter>Source Files\AnimationBlending</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\CrossFadecontroller.cpp">
+      <Filter>Source Files\AnimationBlending</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter12Sample02.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter12Sample03.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\CCDSolver.cpp">
+      <Filter>Source Files\IK</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter13Sample01.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\FABRIKSolver.cpp">
+      <Filter>Source Files\IK</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter13Sample02.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter13Sample03.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Intersections.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\IKLeg.cpp">
+      <Filter>Source Files\IK</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\DualQuaternion.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter14Sample01.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\AnimTexture.cpp">
+      <Filter>Source Files\Crowds</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\AnimBaker.cpp">
+      <Filter>Source Files\Crowds</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Chapter15Sample01.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Crowd.cpp">
+      <Filter>Source Files\Crowds</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
