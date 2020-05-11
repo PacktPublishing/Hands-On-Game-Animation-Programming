@@ -1,0 +1,3 @@
+# Chapter 3
+
+In this chapter you will learn about [matrix math](https://gabormakesgames.com/matrices.html). How to multiply matrices together, how to invert matrices and how to construct various linear transformations using matrices. There are two samples for this chapter, ```Sample00``` contains the code as listed in the chapter. ```Sample01``` provides an alternate matrix invert function, one that uses lower order matrices.
