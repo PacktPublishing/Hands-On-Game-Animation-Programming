@@ -41,7 +41,7 @@ With the following software and hardware list you can run all code files present
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 1 to 15  | Visual Studio 2019                    | Windows, Mac OS X, and Linux (Any) |
+| 1 to 15  | Visual Studio 2019                    | Windows                          |
 
 
 ### Related products <Other books you may enjoy>
