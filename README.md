@@ -1,8 +1,8 @@
 # Hands-On C++ Game Animation Programming
 
-<a href="Packt UTM URL of the Book"><img src="https://www.packtpub.com/media/catalog/product/cache/bf3310292d6e1b4ca15aeea773aca35e/9/7/9781800208087-original.jpeg" alt="Hands-On C++ Game Animation Programming" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/business-other/hands-on-game-animation-programming?utm_source=github&utm_medium=repository&utm_campaign=9781800208087"><img src="https://www.packtpub.com/media/catalog/product/cache/bf3310292d6e1b4ca15aeea773aca35e/9/7/9781800208087-original.jpeg" alt="Hands-On C++ Game Animation Programming" height="256px" align="right"></a>
 
-This is the code repository for [Hands-On C++ Game Animation Programming](Packt UTM URL of the Book), published by Packt.
+This is the code repository for [Hands-On C++ Game Animation Programming](https://www.packtpub.com/business-other/hands-on-game-animation-programming?utm_source=github&utm_medium=repository&utm_campaign=9781800208087), published by Packt.
 
 **Learn modern animation techniques from theory to implementation with C++ and OpenGL**
 
