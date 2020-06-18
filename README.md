@@ -51,7 +51,7 @@ With the following software and hardware list you can run all code files present
 
 ## Get to Know the Author
 **Gabor Szauer**
-Gabor Szauer has been making games since 2010. He graduated from Full Sail University in 2010 with a bachelor's degree in game development. Gabor maintains an active Twitter presence, @gszauer, and maintains a programming-oriented game development blog. Gabor's previously published books are Game Physics Programming Cookbook and Lua Quick Start Guide, both published by Packt.
+has been making games since 2010. He graduated from Full Sail University in 2010 with a bachelor's degree in game development. Gabor maintains an active Twitter presence, @gszauer, and maintains a programming-oriented game development blog. Gabor's previously published books are Game Physics Programming Cookbook and Lua Quick Start Guide, both published by Packt.
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
