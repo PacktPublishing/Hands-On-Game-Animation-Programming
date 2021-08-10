@@ -152,7 +152,7 @@ void Shader::Load(const std::string& vertex, const std::string& fragment) {
 	bool vertFile = f.good();
 	f.close();
 
-	f = std::ifstream(vertex.c_str());
+	f = std::ifstream(fragment.c_str());
 	bool fragFile = f.good();
 	f.close();
 
